@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/utils.css">
-    <title>Log-In Page</title>
+    <title>Sign-Up Page</title>
 </head>
+
 <body>
-    
+    <div class="pg-login">
+        <main class="login-pg-wrapper">
+            <div class="login-head">
+                <div class="head-main">Login</div>
+                <div class="head-about">Login to get started</div>
+            </div>
+            <div class="login-main">
+                <form class="login-form">
+                    <div class="label-box">
+                        <div class="label-name">Email Address</div>
+                        <label class="label">
+                            <input type="email" placeholder="Enter email" class="input" required>
+                        </label>
+                        <div class="forgot-btn">Forgot Password?</div>
+                    </div>
+                    <div class="label-box label-box-2">
+                        <div class="label-name">Password</div>
+                        <label class="label label-2">
+                            <input type="password" placeholder="Enter Password" class="input" required>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="login-foot">
+                <button>Log In</button>
+                <button><a href="./register.html">Create Account</a></button>
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>

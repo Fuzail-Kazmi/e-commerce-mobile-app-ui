@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *,
 *::after,
 *::before {
@@ -40,8 +42,6 @@ svg {
 body {
     color: var(--text-color-primary);
     font-family: 'Roboto', sans-serif;
-    max-width: 250px;
-    margin: 0 auto;
 }
 
 input::-webkit-outer-spin-button,
@@ -55,3 +55,231 @@ input[type=number] {
 }
 
 /* Log-In Pg Style */
+
+.pg-login {
+    margin-top: 40px;
+    padding-inline: 10px;
+}
+
+.login-head {
+    padding-block: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.head-main {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.head-about {
+    font-size: .8rem;
+    color: gray;
+}
+
+.login-main {
+    margin-top: 20px;
+}
+
+.label {
+    position: relative;
+}
+
+.label-box .label:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background: url(../assets/email.png) center / contain no-repeat;
+}
+
+.label-box .label-2:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    stroke: #c1c1c1;
+    background: url(../assets/lock.png) center / contain no-repeat;
+}
+
+.label-box .label-2:after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    background: url(../assets/eye.png) center / contain no-repeat;
+}
+
+.forgot-btn {
+    color: #0084ff;
+    display: flex;
+    justify-content: end;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+
+.label-name {
+    font-size: .9rem;
+    padding: 5px 1px;
+}
+
+.input {
+    padding: 12px 30px;
+    border: none;
+    width: 100%;
+    border-radius: .2rem;
+    box-shadow: 0px 0px 2px #c1c1c1;
+    font-size: .9rem;
+}
+
+.login-foot {
+    display: grid;
+    margin: 70px 10px;
+    gap: 10px;
+}
+
+.login-foot button {
+    background-color: #0884f7;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: .5rem;
+}
+.login-foot button:nth-child(2){
+    background-color: transparent;
+    box-shadow: 0px 0px 2px #c1c1c1;
+    padding: 13px;
+    color:#0884f7 ;
+}
+.login-foot button a{
+    color: inherit;
+}
+/* Register-Pg Styling */
+
+.pg-signup {
+    margin-top: 40px;
+    padding-inline: 10px;
+}
+.sign-head {
+    padding-block: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sign-main {
+    margin-top: 10px;
+}
+.sign-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-block: 10px;
+}
+
+.label-box .label-sign-3:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    stroke: #c1c1c1;
+    background: url(../assets/united-states.png) center / contain no-repeat;
+}
+.label-box .label-sign-1:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    stroke: #c1c1c1;
+    background: url(../assets/user.png) center / contain no-repeat;
+}
+.sign-foot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+}
+.sign-btn{
+    margin-top: 10px;
+    width: inherit;
+    background-color: #0884f7;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: .5rem;
+}
+.sign-sign-foot-about{
+    color: #626262;
+    font-size: .9rem;
+}
+.sign-foot-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-inline: 5px;
+}
+.sign-foot-btns button{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: .3rem;
+    flex-basis: 50%;
+    box-shadow: 0 0 2px #838383;
+}
+.sign-foot-bottom{
+margin-top: 25px;
+font-size: .8rem;
+}
+.sign-foot-bottom a{
+    text-decoration: underline;
+    color: #0884f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
