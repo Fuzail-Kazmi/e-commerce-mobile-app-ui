@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input,
+textarea {
+    outline: transparent;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.25rem;
+}
+
+img,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+svg {
+    color: var(--color-dark-grey);
+}
+
+body {
+    color: var(--text-color-primary);
+    font-family: 'Roboto', sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Log-In Pg Style */
