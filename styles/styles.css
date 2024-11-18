@@ -469,7 +469,7 @@ font-size: 1.5rem;
     font-weight: 600;
 }
 
-.category-gapbox {
+.category-row {
     margin-top: 10px;
     display: flex;
     gap: 5px;
