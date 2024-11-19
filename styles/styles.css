@@ -267,6 +267,10 @@ input[type=number] {
 }
 
 /* landing page */
+.pg-container {
+    max-width:1200px;
+    margin-inline:auto;
+}
 
 .pg-header {
     display: grid;
@@ -384,6 +388,7 @@ input[type=number] {
 }
 
 /* cart pg styles */
+
 .pg-cart {
     padding: 1rem;
 }
