@@ -10,32 +10,71 @@
 </head>
 
 <body>
+    <div class="pg-header">
+        <div class="pg-header__left">
+            <div class="flex items-center">
+                <div class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-menu">
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                </div>
+                <div class="pg-header__logo">
+                    <a href="../index.html">
+                        <img src="../assets/logo.png" alt="" width="70">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="back-icon">
+            <a href="./pages/login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" x2="9" y1="12" y2="12"/></svg>
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-input">
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-search">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                </svg>
+            </div>
+        </div>
+    </div>
     <div class="pg-login">
         <main class="login-pg-wrapper">
             <div class="login-head">
-                <div class="head-main">Login</div>
-                <div class="head-about">Login to get started</div>
+                <h1 class="head-main text-xl font-bold">Login</h1>
+                <div class="head-about text-sm">Login to get started</div>
             </div>
             <div class="login-main">
                 <form class="login-form">
                     <div class="label-box">
-                        <div class="label-name">Email Address</div>
+                        <div class="label-name text-sm font-medium">Email Address</div>
                         <label class="label">
-                            <input type="email" placeholder="Enter email" class="input" required>
+                            <input type="email" placeholder="Enter email" class="input text-sm" required>
                         </label>
-                        <div class="forgot-btn">Forgot Password?</div>
+                        <div class="forgot-btn text-sm">Forgot Password?</div>
                     </div>
-                    <div class="label-box label-box-2">
-                        <div class="label-name">Password</div>
-                        <label class="label label-2">
-                            <input type="password" placeholder="Enter Password" class="input" required>
+                    <div class="label-box">
+                        <div class="label-name text-sm font-medium">Password</div>
+                        <label class="label">
+                            <input type="password" placeholder="Enter Password" class="input text-sm" required>
                         </label>
                     </div>
                 </form>
             </div>
             <div class="login-foot">
-                <button>Log In</button>
-                <button><a href="./register.html">Create Account</a></button>
+                <button class="login-foot__btn1">Log In</button>
+                <button class="login-foot__btn2">
+                    <a href="/pages/register.html">Account</a>
+                </button>
+
             </div>
         </main>
     </div>
